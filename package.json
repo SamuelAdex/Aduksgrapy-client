@@ -19,7 +19,6 @@
     "react-awesome-reveal": "^4.2.3",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
-    "react-lightbox-gallery": "^2.0.1",
     "react-router-dom": "^6.7.0",
     "swiper": "^9.0.3"
   },
