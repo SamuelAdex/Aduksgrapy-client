@@ -16,7 +16,7 @@ import proImg from '../assets/slide.jpg'
 const Projects = ()=>{
     
     return (
-        <div className="flex flex-col items-center justify-center md:mt-[8rem] mb-[8rem]">
+        <div className="flex flex-col items-center justify-center md:mt-[8rem] mb-[8rem]" id="projects">
             <h1 className="text-center text-5xl mb-10 font-bold">Projects</h1>
             <div className="w-[80%] columns-3xs">
                 <img className="mb-5 rounded-lg cursor-pointer" src={aduks} alt="" loading="lazy" />

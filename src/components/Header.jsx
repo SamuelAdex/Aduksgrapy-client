@@ -10,10 +10,10 @@ const Header = () =>{
                     <h1>AduksGraphy</h1>
                 </div>
                 <div className="md:flex gap-5 items-center hidden">
-                    <div className="font-bold hover:text-teal-800 cursor-pointer">Home</div>
-                    <div className="font-bold hover:text-teal-800 cursor-pointer">About</div>
-                    <div className="font-bold hover:text-teal-800 cursor-pointer">Projects</div>
-                    <div className="font-bold hover:text-teal-800 cursor-pointer">Contact</div>
+                    <a href="#home" className="font-bold hover:text-teal-800 cursor-pointer">Home</a>
+                    <a href="#about" className="font-bold hover:text-teal-800 cursor-pointer">About</a>
+                    <a href="#projects" className="font-bold hover:text-teal-800 cursor-pointer">Projects</a>
+                    <a href="#contact" className="font-bold hover:text-teal-800 cursor-pointer">Contact</a>
                 </div>
                 <div className="md:hidden cursor-pointer">
                     <AiOutlineMenu fontSize={"1.8rem"} />
