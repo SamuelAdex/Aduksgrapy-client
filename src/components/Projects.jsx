@@ -19,17 +19,17 @@ const Projects = ()=>{
         <div className="flex flex-col items-center justify-center md:mt-[8rem] mb-[8rem]">
             <h1 className="text-center text-5xl mb-10 font-bold">Projects</h1>
             <div className="w-[80%] columns-3xs">
-                <img className="mb-5 rounded-lg cursor-pointer" src={aduks} alt="" />
-                <img className="mb-5 rounded-lg cursor-pointer" src={aduks1} alt="" />
-                <img className="mb-5 rounded-lg cursor-pointer" src={aduks2} alt="" />
-                <img className="mb-5 rounded-lg cursor-pointer" src={aduks3} alt="" />
-                <img className="mb-5 rounded-lg cursor-pointer" src={aduks4} alt="" />
-                <img className="mb-5 rounded-lg cursor-pointer" src={aduks5} alt="" />
-                <img className="mb-5 rounded-lg cursor-pointer" src={aduks6} alt="" />
-                <img className="mb-5 rounded-lg cursor-pointer" src={aduks7} alt="" />
-                <img className="mb-5 rounded-lg cursor-pointer" src={aduks8} alt="" />
-                <img className="mb-5 rounded-lg cursor-pointer" src={proImg1} alt="" />
-                <img className="mb-5 rounded-lg cursor-pointer" src={proImg} alt="" />
+                <img className="mb-5 rounded-lg cursor-pointer" src={aduks} alt="" loading="lazy" />
+                <img className="mb-5 rounded-lg cursor-pointer" src={aduks1} alt="" loading="lazy" />
+                <img className="mb-5 rounded-lg cursor-pointer" src={aduks2} alt="" loading="lazy" />
+                <img className="mb-5 rounded-lg cursor-pointer" src={aduks3} alt="" loading="lazy" />
+                <img className="mb-5 rounded-lg cursor-pointer" src={aduks4} alt="" loading="lazy" />
+                <img className="mb-5 rounded-lg cursor-pointer" src={aduks5} alt="" loading="lazy" />
+                <img className="mb-5 rounded-lg cursor-pointer" src={aduks6} alt="" loading="lazy" />
+                <img className="mb-5 rounded-lg cursor-pointer" src={aduks7} alt="" loading="lazy" />
+                <img className="mb-5 rounded-lg cursor-pointer" src={aduks8} alt="" loading="lazy" />
+                <img className="mb-5 rounded-lg cursor-pointer" src={proImg1} alt="" loading="lazy" />
+                <img className="mb-5 rounded-lg cursor-pointer" src={proImg} alt="" loading="lazy" />
             </div>
         </div>
     )

@@ -33,22 +33,22 @@ const Slider = ()=>{
             className="mySwiper"
         >
             <SwiperSlide>
-                <img src={aduks1} alt="" />
+                <img src={aduks1} alt="" loading="lazy" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={aduks2} alt="" />
+                <img src={aduks2} alt="" loading="lazy" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={aduks3} alt="" />
+                <img src={aduks3} alt="" loading="lazy" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={aduks4} alt="" />
+                <img src={aduks4} alt="" loading="lazy" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={aduks5} alt="" />
+                <img src={aduks5} alt="" loading="lazy" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={aduks6} alt="" />
+                <img src={aduks6} alt="" loading="lazy" />
             </SwiperSlide>
         </Swiper>
     )

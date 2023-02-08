@@ -8,7 +8,7 @@ const Latest = () => {
         <h1 className="text-5xl font-bold mb-6 text-center">Latest</h1>
         <div className="w-[80%] md:flex items-center justify-center">
             <div className="md:flex-1 relative">
-                <img src={imgFile} className="md:w-[80%] md:h-[70%] w-full h-[50%] rounded-lg" alt="" />
+                <img src={imgFile} className="md:w-[80%] md:h-[70%] w-full h-[50%] rounded-lg" alt="" loading="lazy" />
                 <div className="absolute z-6 bg-white w-[70%] hidden lg:flex md:flex ml-20 p-5 -mt-20">
                     <div className="">
                         <h1 className="text-lg font-bold">Jack & Rose Pre-Wedding</h1>
